@@ -1,0 +1,10 @@
+{ "name": "GitlabLinks",
+  "license": "MIT",
+  "scripts": {
+    "watch": "parcel watch src/app.js --dist-dir public",
+    "build": "parcel build src/app.js --dist-dir public"
+  },
+  "dependencies": {
+    "parcel": "^2.6.2"
+  }
+}

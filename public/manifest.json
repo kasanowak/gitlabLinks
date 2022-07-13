@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Gitlab links",
+  "description": "Podmienia tytuł merge requesta na link do zadania w easyreadmine. W treści MRa musi się znajdować #00000 lub er00000",
+  "version": "1.0",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo64.png",
+    "128": "logo128.png"
+  },
+  "content_scripts": [{
+      "js": ["app.js"],
+      "matches": ["https://gitlab.inpl.work/*"]
+    }],
+  "permissions": [
+    "activeTab", "scripting"
+  ]
+}
